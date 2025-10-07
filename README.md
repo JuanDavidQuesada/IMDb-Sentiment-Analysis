@@ -1,10 +1,10 @@
 
-# 🎬 IMDb Sentiment Analysis
+#  IMDb Sentiment Analysis
 
 A Natural Language Processing (NLP) project that classifies IMDb movie reviews as **positive** or **negative** using two supervised learning models: **Logistic Regression** and **Multinomial Naive Bayes**.  
 This project compares both models and provides an interface for quick predictions using pre-trained models.
 
-## 🚀 Overview
+##  Overview
 
 The dataset used for this project is the IMDb reviews dataset, which contains 50,000 labeled reviews (25k for training, 25k for testing).  
 Each review is preprocessed (lowercasing, HTML removal, punctuation cleaning, and stopword filtering) before being vectorized and classified.
@@ -15,7 +15,7 @@ Each review is preprocessed (lowercasing, HTML removal, punctuation cleaning, an
 
 The Logistic Regression model performed better overall, achieving higher accuracy and balanced precision/recall scores.
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Logistic Regression | Multinomial NB |
 |--------|---------------------|----------------|
@@ -24,13 +24,13 @@ The Logistic Regression model performed better overall, achieving higher accurac
 | Recall | 0.882 | 0.767 |
 | F1-score | 0.883 | 0.813 |
 
-## 💡 How It Works
+##  How It Works
 
 1. Load the pre-trained vectorizers and models (`.pkl` files).  
 2. Input a movie review (string).  
 3. The model predicts whether the sentiment is **Positive (1)** or **Negative (0)**.
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python 3.13.5
 - Pandas  
@@ -40,7 +40,7 @@ The Logistic Regression model performed better overall, achieving higher accurac
 - Joblib / Pickle  
 - Matplotlib & Seaborn (for visualization)  
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ```bash
 git clone https://github.com/JuanDavidQuesada/IMDb-Sentiment-Analysis.git
@@ -49,14 +49,14 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📄 Files Included
+##  Files Included
 
 - `main.py` – Code for loading models and predicting new reviews.  
 - `requirements.txt` – Dependencies for running the notebook or script.  
 - `LogisticRegression_model.pkl` / `MultinomialNB_model.pkl` – Pre-trained models.  
 - `*_vectorizer.pkl` – Corresponding vectorizers for text transformation.
 
-## 👨‍💻 Author
+##  Author
 
 **Juan David Quesada Estrada**  
 [LinkedIn](https://www.linkedin.com/in/juan-david-quesada-estrada-1011521b4/)  
