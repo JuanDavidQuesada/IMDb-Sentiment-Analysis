@@ -14,6 +14,7 @@ logreg_vec_path = os.path.join(base_dir, 'LogisticRegression_vectorizer.pkl')
 nb_model_path = os.path.join(base_dir, 'MultinomialNB_model.pkl')
 nb_vec_path = os.path.join(base_dir, 'MultinomialNB_vectorizer.pkl')
 
+# Load models and vectorizers
 logreg_model = load_pickle(logreg_model_path)
 logreg_vectorizer = load_pickle(logreg_vec_path)
 nb_model = load_pickle(nb_model_path)

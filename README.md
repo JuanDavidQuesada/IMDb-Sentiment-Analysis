@@ -6,8 +6,9 @@ This project compares both models and provides an interface for quick prediction
 
 ##  Overview
 
-The dataset used for this project is the IMDb reviews dataset, which contains 50,000 labeled reviews (25k for training, 25k for testing).  
+The dataset used for this project is the IMDb reviews dataset, which contains 50,000 labeled reviews (25k for training, 25k for testing). 
 Each review is preprocessed (lowercasing, HTML removal, punctuation cleaning, and stopword filtering) before being vectorized and classified.
+Reviews: https://ai.stanford.edu/~amaas/data/sentiment/
 
 ### Models Used
 - **Logistic Regression + TF-IDF Vectorizer**
@@ -55,7 +56,8 @@ python main.py
 - `requirements.txt` – Dependencies for running the notebook or script.  
 - `LogisticRegression_model.pkl` / `MultinomialNB_model.pkl` – Pre-trained models.  
 - `*_vectorizer.pkl` – Corresponding vectorizers for text transformation.
-
+- `LogisticRegressionModel.py` / `MultinomialNBModel.py` - Code for training models.
+- `FileProcessing.py` - Code for cleaning data for training.
 ##  Author
 
 **Juan David Quesada Estrada**  
