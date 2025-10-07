@@ -43,4 +43,4 @@ if __name__ == "__main__":
         if review.lower() == 'exit':
             break
         output = predict_sentiment(review)
-        print(f"Results → Logistic Regression: {output['Logistic Regression']} | Naive Bayes: {output['Multinomial NB']}\n")
+        print(f"Results:\n1) Logistic Regression: {output['Logistic Regression']}\n2) Naive Bayes: {output['Multinomial NB']}\n")
