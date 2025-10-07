@@ -32,7 +32,7 @@ The Logistic Regression model performed better overall, achieving higher accurac
 
 ## 🧠 Technologies Used
 
-- Python 3.10+  
+- Python 3.13.5
 - Pandas  
 - NumPy  
 - Scikit-learn  
@@ -62,6 +62,4 @@ python main.py
 [LinkedIn](https://www.linkedin.com/in/juan-david-quesada-estrada-1011521b4/)  
 [GitHub](https://github.com/JuanDavidQuesada)
 
----
-> _"Turning data into stories that matter."_
 
