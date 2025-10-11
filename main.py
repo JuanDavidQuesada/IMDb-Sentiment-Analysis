@@ -36,7 +36,7 @@ def predict_sentiment(review):
     return results
 
 if __name__ == "__main__":
-    print("\n🎬 IMDb Sentiment Analysis Tool")
+    print("\nIMDb Sentiment Analysis Tool")
     print("Type 'exit' to quit.\n")
 
     while True:
